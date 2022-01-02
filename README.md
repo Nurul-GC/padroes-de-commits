@@ -46,7 +46,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - Recomendamos que na primeira linha deve ter no máximo 4 palavras;
 - Para descrever com detalhes, usar a descrição do commit;
 - Usar um emoji no início da mensagem de commit representando sobre o commit;
-- Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e link safiliados;
+- Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
 
 ## 💻 Exemplo
 ```bash
@@ -76,6 +76,10 @@ git commit -m ":tada: Meu primeiro commit"
       <td> ✨ <code>:sparkles:</code>   </td>
     </tr>
     <tr>
+      <td>  Lista de ideias (tasks)    </td>
+      <td> 🔜 <code> :soon: </code>   </td>
+    </tr>
+    <tr>
       <td>  Bugfix  </td>
       <td> 🐛 <code>:bug:</code>   </td>
     </tr>
@@ -85,7 +89,7 @@ git commit -m ":tada: Meu primeiro commit"
     </tr>
     <tr>
       <td>  Testes  </td>
-      <td> 🚨 <code>:rotating_light: </code>   </td>
+      <td> 🧪 <code>:test_tube: </code>   </td>
     </tr>
     <tr>
       <td>Adicionando um teste</td>
@@ -131,6 +135,10 @@ git commit -m ":tada: Meu primeiro commit"
       <td>   Alterações de revisão de código        </td>
       <td> 👌 <code> :ok_hand: </code>   </td>
     </tr>
+   <tr>
+      <td>   Refatoração        </td>
+      <td> ♻️ <code> :recycle: </code>   </td>
+   </tr>
     <tr>
       <td>   Mover/Renomear        </td>
       <td> 🚚 <code> :truck: </code>   </td>
